@@ -56,6 +56,6 @@ public ResponseEntity<User> updateUser(@PathVariable Long id, @RequestBody User 
         userService.deleteUser(id);
         return ResponseEntity.ok("User with ID " + id + " has been deleted.");
         // test branch protection
-        // test branch protection
+        //tested
     }
 }
